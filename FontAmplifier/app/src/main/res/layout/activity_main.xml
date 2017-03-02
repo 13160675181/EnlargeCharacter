@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="hhh.zjh.com.fontamplifier.MainActivity"
+    android:background="#ebd7d7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt"
+        android:textSize="20sp"
+        android:layout_marginTop="160dp"
+        android:id="@+id/txt"
+        android:background="#b17a5a"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/enlarge_button"
+        android:layout_alignStart="@+id/enlarge_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enlarge_button"
+        android:id="@+id/enlarge_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="129dp"
+        android:textSize="25sp"
+        android:background="#272350" />
+</RelativeLayout>
